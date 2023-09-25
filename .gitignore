@@ -1,0 +1,6 @@
+terraform-provider-aws_v5.17.0_x5
+modules.json
+terraform.tfstate
+.terraform.lock.hcl
+terraform.tfstate.backup
+.gitignore.swp
