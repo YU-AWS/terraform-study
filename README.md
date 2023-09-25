@@ -1,8 +1,12 @@
 # terraform-study
 
+# VScodeを日本語化する
+https://www.javadrive.jp/vscode/install/index4.html
+
 # AWSに慣れる
 
 # VPC作成
+
 
 # サブネットを１つ作成
 
