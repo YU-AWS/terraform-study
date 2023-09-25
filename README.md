@@ -1,5 +1,16 @@
 # 環境設定
 
+・homebrewインストール
+https://brew.sh
+
+・PATHの通し方と意味
+https://blog.kikagaku.co.jp/path
+https://amateur-engineer.com/mac-path-zsh/
+お使いのmacがzshかbashかで設定が変わってくる
+
+・terraformインストール
+https://qiita.com/tanamoru/items/196004686a471a3b7e2f
+
 ・VScodeを日本語化する
 https://www.javadrive.jp/vscode/install/index4.html
 
