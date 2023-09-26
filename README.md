@@ -25,6 +25,8 @@ https://www.ipentec.com/document/github-create-organization-account
 https://qiita.com/suke_masa/items/4bed855628f7414293f8
 
 # TERRAFORM関連
+<br>・HCLコード参考<br>
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources
 
 <br>・プロファイルの作成と設定<br>
 https://www.techpit.jp/courses/125/curriculums/128/sections/939/parts/3609
