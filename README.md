@@ -73,15 +73,15 @@ https://capsulecloud.io/terraform-variable
 https://qiita.com/ryo-sato/items/2bc7438077c567c178e5
 
 # gitignoreを使い公開しない情報、gitで管理しないもの、容量の大きいものを追加
-ルートディレクトリに.gitignoreを作成しておく
-$ cd {リポジトリパス}
+<br>ルートディレクトリに.gitignoreを作成しておく<br>
+<br>$ cd {リポジトリパス}<br>
 
-$ touch .gitignore
+<br>$ touch .gitignore<br>
 
-.gitignoreにgit管理対象から外したいファイルを記載する
-$ vi .gitignore
+<br>.gitignoreにgit管理対象から外したいファイルを記載する<br>
+<br>$ vi .gitignore<br>
 
-iを押下して(insert)モードにする
-ファイル記載する
-ファイルを記載し終えたら、esc→:wqで保存して終了する
+<br>iを押下して(insert)モードにする<br>
+<br>ファイル記載する<br>
+<br>ファイルを記載し終えたら、esc→:wqで保存して終了する<br>
 
