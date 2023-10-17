@@ -100,4 +100,6 @@ https://qiita.com/ryo-sato/items/2bc7438077c567c178e5
 <br>ファイル記載する<br>
 <br>ファイルを記載し終えたら、esc→:wqで保存して終了する<br>
 
+YUJINAGAAOKA
+
 terraformでこの内容を取り込みながら新しい変更をマージする
