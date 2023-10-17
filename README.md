@@ -46,16 +46,20 @@ https://capsulecloud.io/terraform-variable
 https://zenn.dev/naonao70/articles/9fdca68268898c
 
 <br>feature作業中に、developの最新内容を取り入れる<br>
-developにチェックアウト
-・git checkout develop
-最新にする
-・git pull origin develop
-作業ブランチにチェックアウト
-・git checkout feature-XX-XX
-developの内容を取り込む
-・git rebase develop
-それをプッシュする
-・git push origin feature-XX-XX -f
+<br>developにチェックアウト<br>
+<br>・git checkout develop<br>
+<br>最新にする<br>
+<br>・git pull origin develop<br>
+<br>作業ブランチにチェックアウト<br>
+<br>・git checkout feature-XX-XX<br>
+<br>developの内容を取り込む<br>
+<br>・git rebase develop<br>
+
+<br>その場でコンフリクトが起きた場合、解消作業する→その後、git rebase --continue<br>
+
+<br>それをプッシュする<br>
+<br>・git push origin feature-XX-XX -f<br>
+
 
 # VPC作成
 
