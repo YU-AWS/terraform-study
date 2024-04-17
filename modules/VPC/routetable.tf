@@ -10,9 +10,13 @@ resource "aws_route_table" "dev_pub_rt" {
   }
 }
 
-#SubnetとRoute tableの関連付け
-resource "aws_route_table_association" "dev_pub_rt_associate" {
+#パブリックSubnet用のRoute table関連付け
+resource "aws_route_table_association" "dev_pub_rt_associate_1a" {
   subnet_id      = aws_subnet.dev_pub_subnet_1a.id
+  route_table_id = aws_route_table.dev_pub_rt.id
+}
+resource "aws_route_table_association" "dev_pub_rt_associate_2c" {
+  subnet_id      = aws_subnet.dev_pub_subnet_2c.id
   route_table_id = aws_route_table.dev_pub_rt.id
 }
 
@@ -28,8 +32,12 @@ resource "aws_route_table" "dev_pri_rt" {
   }
 }
 
-#SubnetとRoute tableの関連付け
-resource "aws_route_table_association" "dev_pri_rt_associate" {
+#プライベートSubnet用のRoute table関連付け
+resource "aws_route_table_association" "dev_pri_rt_associate_1c" {
   subnet_id      = aws_subnet.dev_pri_subnet_1a.id
+  route_table_id = aws_route_table.dev_pri_rt.id
+}
+resource "aws_route_table_association" "dev_pri_rt_associate_2c" {
+  subnet_id      = aws_subnet.dev_pri_subnet_2c.id
   route_table_id = aws_route_table.dev_pri_rt.id
 }
