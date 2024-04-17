@@ -45,6 +45,22 @@ https://capsulecloud.io/terraform-variable
 <br>。workspaceの作成<br>
 https://zenn.dev/naonao70/articles/9fdca68268898c
 
+<br>feature作業中に、developの最新内容を取り入れる<br>
+<br>developにチェックアウト<br>
+<br>・git checkout develop<br>
+<br>最新にする<br>
+<br>・git pull origin develop<br>
+<br>作業ブランチにチェックアウト<br>
+<br>・git checkout feature-XX-XX<br>
+<br>developの内容を取り込む<br>
+<br>・git rebase develop<br>
+
+<br>その場でコンフリクトが起きた場合、解消作業する→その後、git rebase --continue<br>
+
+<br>それをプッシュする<br>
+<br>・git push origin feature-XX-XX -f<br>
+
+
 # VPC作成
 
 <br>VPC作成<br>
@@ -88,3 +104,9 @@ https://qiita.com/ryo-sato/items/2bc7438077c567c178e5
 <br>ファイル記載する<br>
 <br>ファイルを記載し終えたら、esc→:wqで保存して終了する<br>
 
+YUJINAGAAOKA
+
+terraformでこの内容を取り込みながら新しい変更をマージする
+terraformでこの内容を取り込みながら新しい変更をマージする
+terraformでこの内容を取り込みながら新しい変更をマージする
+terraformでこの内容を取り込みながら新しい変更をマージする
