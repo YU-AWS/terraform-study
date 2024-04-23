@@ -4,6 +4,8 @@ module "VPC" {
 
   az_c = var.az_c
 
+  az_d = var.az_d
+
   cidr_block = var.cidr_block
 
   cidr_sunet_block_public_a = var.cidr_sunet_block_public_a
@@ -16,4 +18,7 @@ module "VPC" {
 
   cidr_rt_block = var.cidr_rt_block
 
+  subnet_tag = var.subnet_tag.private
+
+  # vpc_id = var.vpc_id
 }
