@@ -1,4 +1,4 @@
-module "sqs" {
+module "SQS" {
   source = "../modules/SQS"
 
   name = var.name

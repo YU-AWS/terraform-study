@@ -1,4 +1,4 @@
-module "s3" {
+module "S3" {
   source = "../modules/S3"
 
   name = var.name

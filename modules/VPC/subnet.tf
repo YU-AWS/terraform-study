@@ -5,6 +5,7 @@ resource "aws_subnet" "dev_pub_subnet_1a" {
   availability_zone = var.az_a
 
   tags = {
+    #サブネットname
     Name = "terraform-study-public-subnet1a"
   }
 }
@@ -16,6 +17,7 @@ resource "aws_subnet" "dev_pub_subnet_2c" {
   availability_zone = var.az_c
 
   tags = {
+    #サブネットname
     Name = "terraform-study-public-subnet1c"
   }
 }
@@ -27,6 +29,7 @@ resource "aws_subnet" "dev_pri_subnet_1a" {
   availability_zone = var.az_a
 
   tags = {
+    #サブネットname
     Name = "terraform-study-private-subnet1a"
   }
 }
@@ -38,6 +41,7 @@ resource "aws_subnet" "dev_pri_subnet_2c" {
   availability_zone = var.az_c
 
   tags = {
+    #サブネットname
     Name = "terraform-study-private-subnet2c"
   }
 }
