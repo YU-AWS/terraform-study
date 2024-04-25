@@ -87,3 +87,27 @@ variable "subnet_tag" {
 variable "desired_count" {
   type = number
 }
+
+variable "ami_id" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+#variable "associate_public_ip_address" {
+#  type = string
+#}
+
+variable "disable_api_termination" {
+  type = string
+}
+
+variable "key_name" {
+  type = string
+}
+
+variable "subnet_id" {
+  type = string
+}
